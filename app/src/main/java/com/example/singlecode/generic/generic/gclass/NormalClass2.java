@@ -22,4 +22,13 @@ public class NormalClass2 {
     public void setData(Object data) {
         this.data = data;
     }
+
+    /**
+     * 通过通配符和super组合来指定泛型类的下界
+     * 这里的入参的是个泛型类对象，而这个泛型类所绑定的参数被指定了下界，也就是这个泛型类的泛型参数只能是
+     * @param data
+     */
+    public void genericSuper(GenericSuper<?  super BaseClass> data){
+
+    }
 }

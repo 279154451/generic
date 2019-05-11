@@ -1,5 +1,7 @@
 package com.example.singlecode.generic.generic.gclass;
 
+import com.example.singlecode.generic.generic.TopBean;
+
 /**
  * 创建时间：2019/4/2
  * 创建人：czf

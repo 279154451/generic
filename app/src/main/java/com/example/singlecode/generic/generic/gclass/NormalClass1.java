@@ -3,7 +3,7 @@ package com.example.singlecode.generic.generic.gclass;
 /**
  * 这是一个普通的键值对数据结构
  */
-public class NormalClass1 {
+public class NormalClass1  {
     private String key;//键的类型为String
     private String value;//值的类型也是String
 

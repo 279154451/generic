@@ -1,5 +1,7 @@
 package com.example.singlecode.generic.generic.gclass;
 
+import java.util.List;
+
 /**
  * 这是一个泛型类
  * @param <K>
@@ -37,4 +39,5 @@ public class GenericClass2<K,V> {
     public void setValue(V value) {
         this.value = value;
     }
+    
 }
